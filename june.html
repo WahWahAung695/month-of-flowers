@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>June - Rose </title>
+    <link rel="icon" href="images/rose.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .carousel-inner img {
+            height: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card text-center">
+        <div class="carousel slide" data-bs-ride="carousel" id="roseCarousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#roseCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#roseCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#roseCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/rose1.jpg" alt="Rose Flower 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/rose2.jpg" alt="Rose Flower 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/rose3.jpg" alt="Rose Flower 3" class="d-block w-100">
+                </div>
+            </div>
+            <a href="#roseCarousel" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#roseCarousel" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">June - Rose</h5>
+            <p>Roses are the birth flowers of June. They symbolize love, beauty, and honor. Each rose color carries
+                different meanings, with red symbolizing love and white representing purity.
+            </p>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

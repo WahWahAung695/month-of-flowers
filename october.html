@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>October - Marigold</title>
+    <link rel="icon" href="images/marigold.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .carousel-inner img {
+            width: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card text-center">
+        <div class="carousel slide" data-bs-ride="carousel" id="marigoldCarousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#marigoldCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#marigoldCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#marigoldCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/marigold1.jpg" alt="Marigold Flower 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/marigold2.webp" alt="Marigold Flower 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/marigold3.webp" alt="Marigold Flower 3" class="d-block w-100">
+                </div>
+            </div>
+            <a href="#marigoldCarousel" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#marigoldCarousel" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">October - Marigold</h5>
+            <p>
+                Marigolds are October’s birth flowers. They represent passion, creativity, and warmth. Their bold,
+                bright blooms are often associated with the sun and are used in various cultural celebrations.
+            </p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

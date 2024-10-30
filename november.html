@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>November - Chrysanthemum </title>
+    <link rel="icon" href="images/chrysanthemum.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+        }
+
+        .card {
+            /* width: 100%; */
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .carousel-inner img {
+            width: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card text-center">
+        <div class="carousel slide" data-bs-ride="carousel" id="chrysanthemumCarousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#chrysanthemumCarousel" data-bs-slide-to="0"
+                    class="active"></button>
+                <button type="button" data-bs-target="#chrysanthemumCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#chrysanthemumCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/chrysanthemum1.jpg" alt="Chrysanthemum Flower 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/chrysanthemum2.jpg" alt="Chrysanthemum Flower 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/chrysanthemum3.jpg" alt="Chrysanthemum Flower 3" class="d-block w-100">
+                </div>
+            </div>
+            <a href="#chrysanthemumCarousel" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#chrysanthemumCarousel" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">November - Chrysanthemum</h5>
+            <p>
+                Chrysanthemums are the birth flowers of November. They symbolize loyalty, optimism, and long life. In
+                various cultures, they are also a symbol of joy and celebration.
+            </p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

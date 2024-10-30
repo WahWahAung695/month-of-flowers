@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>August - Poppy</title>
+    <link rel="icon" href="images/poppy.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .carousel-inner img {
+            width: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="carousel slide" data-bs-ride="carousel" id="poppyCarousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#poppyCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#poppyCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#poppyCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/poppy1.jpg" alt="Poppy Flower 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/poppy2.jpg" alt="Poppy Flower 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/poppy3.jpg" alt="Poppy Flower 3" class="d-block w-100">
+                </div>
+            </div>
+            <a href="#poppyCarousel" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#poppyCarousel" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">August - Poppy</h5>
+            <p>
+                Poppies are the birth flowers of August. They symbolize imagination, remembrance, and peace. Poppies
+                come in vibrant colors and are often associated with both sleep and dreams, as well as sacrifice and
+                remembrance.
+            </p>
+
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

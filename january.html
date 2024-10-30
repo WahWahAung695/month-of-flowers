@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnation - January Flower</title>
+    <link rel="icon" href="images/Carnation.jpg">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .carousel-inner img {
+            height: 400px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card text-center">
+        <div id="carnationCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carnationCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carnationCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carnationCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Carnation1.jpg" class="d-block w-100" alt="Carnation Flower 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carnation2.webp" class="d-block w-100" alt="Carnation Flower 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carnation3.webp" class="d-block w-100" alt="Carnation Flower 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carnationCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carnationCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title">Carnation - January Flower</h5>
+            <p class="card-text">
+                Carnations are the birth flowers of January. They symbolize admiration, love, and distinction.
+                Carnations come in a wide range of colors, each holding different meanings.
+            </p>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
